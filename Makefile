@@ -1,6 +1,8 @@
-SRCS	= ft_printf.c ft_atoi.c ft_for_d_and_i.c ft_print_int.c ft_no_width.c \
+SRCS	= ft_printf.c ft_parser.c \
+			ft_dop_functions.c \
+			ft_print_int.c ft_with_width.c \
 			ft_print_char.c ft_print_string.c ft_print_pointer.c ft_print_percent.c \
-			ft_parser.c
+			
 OBJS	=  ${SRCS:.c=.o}
 INCS	= ./
 NAME	= libftprintf.a

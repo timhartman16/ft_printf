@@ -8,7 +8,7 @@ int	ft_if_minus(t_printf *s_printf, int kol_symb)
 	if (s_printf->flag_minus == 0)
 	{
 		if (s_printf->flag_zero == 1)
-			length += ft_symbols(kol_symb, '0');
+			length += 1 + ft_symbols(kol_symb, '0');
 		else
 			length += 1 + ft_symbols(kol_symb, ' ');
 		ft_put_char('%');
